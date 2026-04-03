@@ -61,7 +61,7 @@ export default function Login({setIsLogIn}){
                     <input
                         id="passwordInput" 
                         type="password" 
-                        placeholder="Your Password"
+                        placeholder="Your Password ffff"
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
