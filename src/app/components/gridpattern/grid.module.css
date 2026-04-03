@@ -1,0 +1,10 @@
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;          /* jemný grid */
+  pointer-events: none;   /* grid neblokuje klikání */
+  z-index: 0;             /* vždy za obsahem */
+}

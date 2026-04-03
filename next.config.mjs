@@ -2,6 +2,9 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+    allowedDevOrigins: [
+    "*.ngrok-free.app"
+  ]
 };
 
 export default nextConfig;
