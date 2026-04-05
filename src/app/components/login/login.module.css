@@ -135,6 +135,20 @@
     margin-left: 1em;
 }
 
+.passwordInput{
+    position: relative;
+}
+
+.showPasswordButton{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 @media (max-width: 480px) {
     .content {
         gap: 20px;
